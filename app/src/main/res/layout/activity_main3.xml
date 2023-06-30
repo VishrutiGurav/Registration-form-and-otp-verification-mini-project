@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/r1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Registration"
+        android:textColor="#070707"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="We will send you a one time OTP password on the submitted mobile number"
+        android:textAlignment="center"
+        android:textColor="#030109"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt2" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:textAlignment="center"
+        android:textColor="#0E0D0D"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/rb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:textColor="#121111"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t2" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="76dp"
+        android:text="Submit"
+        app:layout_constraintTop_toBottomOf="@+id/tb1"
+        tools:layout_editor_absoluteX="7dp" />
+
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/r1" />
+
+    <EditText
+        android:id="@+id/edt2"
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/edt1"
+        app:layout_constraintTop_toBottomOf="@+id/r1" />
+
+    <EditText
+        android:id="@+id/edt3"
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/edt2"
+        app:layout_constraintTop_toBottomOf="@+id/r1" />
+
+    <EditText
+        android:id="@+id/edt4"
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.016"
+        app:layout_constraintStart_toEndOf="@+id/edt3"
+        app:layout_constraintTop_toBottomOf="@+id/r1" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="10dp"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="228dp"
+        tools:layout_editor_absoluteY="520dp" />
+
+    <Button
+        android:id="@+id/tb1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
